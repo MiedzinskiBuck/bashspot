@@ -43,7 +43,7 @@ dnsmasq=$(dpkg -s dnsmasq 2>/dev/null | grep "installed")
 if [ -z "$dnsmasq" ];
 then
 	echo "[-] Dnsmasq is not installed....installing now!"
-        apt-get install hostapd
+        apt-get install dnsmasq
 else
 	echo "[+] Dnsmasq already installed!"
 fi
@@ -54,7 +54,7 @@ hostapd=$(dpkg -s hostapd 2>/dev/null | grep "installed")
 if [ -z "$hostapd" ];
 then
 	echo "[-] Hostapd is not installed....installing now!"
-	apt-get install dnsmasq
+	apt-get install hostapd
 else
 	echo "[+] Hostapd already installed"
 fi
