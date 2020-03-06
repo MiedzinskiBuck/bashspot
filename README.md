@@ -1,7 +1,5 @@
 # Bashspot
 
-[![Bash]
-
 A really basic script to use a wireless USB adapter as an AP to perform some tests.
 
 ### Install
