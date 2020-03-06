@@ -2,8 +2,6 @@
 
 A really basic script to use a wireless USB adapter as an AP to perform some tests.
 
-### Install
-
 To run this script you need to have hostapd and dnsmasq installed. The script will automatically install then if you do not have then already.
 
 Please note that this script was written in a Debian machine, so maybe you'll need to install these packages in a different way.
